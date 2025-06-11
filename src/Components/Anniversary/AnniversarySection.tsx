@@ -103,7 +103,7 @@ export const AnniversaryCounter: React.FC<AnniversaryCounterProps> = ({
     const totalSeconds = Math.floor(diff / 1000);
     const totalMinutes = Math.floor(totalSeconds / 60);
     const totalHours = Math.floor(totalMinutes / 60);
-    const totalDays = Math.floor(totalHours / 24);
+  
 
     // Horas, minutos e segundos restantes
     const displaySeconds = totalSeconds % 60;
@@ -151,7 +151,7 @@ export const AnniversaryCounter: React.FC<AnniversaryCounterProps> = ({
   }, [startDate]); // Recalcula se a data de início mudar
 
   return (
-    <AnniversaryContainer>
+    <AnniversaryContainer data-aos="zoom-in">
       <MainText>
          eu te amo há
         <CounterNumber>{time.years}</CounterNumber> anos,

@@ -84,7 +84,7 @@ export const PolaroidSection: React.FC = () => {
 
   return (
     <Section>
-      <h2>Memórias em Polaroid 📷</h2>
+      <h2 data-aos="fade-up-right">Memórias em Polaroid 📷</h2>
       <Carousel ref={sliderRef} className="keen-slider">
         {polaroids.map((item, i) => (
           <Slide className="keen-slider__slide" key={i}>

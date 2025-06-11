@@ -3,8 +3,8 @@ export const HeroSection = () => {
   return (
     <Container>
       <Infos>
-        <h1>Feliz Dia dos Namorados, Meu Amor!</h1>
-        <p>
+        <h1 data-aos="fade-right">Feliz Dia dos Namorados, Meu Amor!</h1>
+        <p data-aos="fade-left">
           Este é um pedacinho do meu coração para agradecer por ter você na
           minha vida.
         </p>
@@ -17,10 +17,10 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff0f5; 
-      @media (max-width: 768px) {
-        padding: 4rem 1rem;
-    }
+  background-color: #fff0f5;
+  @media (max-width: 768px) {
+    padding: 4rem 1rem;
+  }
 `;
 
 const Infos = styled.div`
@@ -34,7 +34,7 @@ const Infos = styled.div`
   h1 {
     font-size: 6rem;
     font-weight: 700;
-    color: #CB869F;
+    color: #cb869f;
 
     @media (max-width: 768px) {
       font-size: 3.4rem;

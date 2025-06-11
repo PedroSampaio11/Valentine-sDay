@@ -57,7 +57,7 @@ export const SpotifySection: React.FC = () => {
   return (
     <Container>
       <Msg>
-        <p>
+        <p data-aos="fade-right">
           Nosso som para o nosso Dia. Que ela te lembre do quanto você é
           especial. ❤️
         </p>
@@ -70,6 +70,7 @@ export const SpotifySection: React.FC = () => {
         allowFullScreen
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         title="Spotify Player - All That Matters"
+        data-aos="fade-left"
       />
     </Container>
   );

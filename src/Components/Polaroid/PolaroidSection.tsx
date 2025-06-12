@@ -41,7 +41,7 @@ const polaroids = [
   { src: "/images/love.jpg", caption: "eu & tu muie" },
   { src: "/images/beach.jpg", caption: "EU TE AMO TANTO!" },
   { src: "/images/1.jpg", caption: "primeiro dia na sua familia" },
-  { src: "/images/1.jpg", caption: "Nosso primeiro treino" },
+  { src: "/images/gym.jpg", caption: "Nosso primeiro treino" },
 ];
 
 export const PolaroidSection: React.FC = () => {
@@ -60,7 +60,7 @@ export const PolaroidSection: React.FC = () => {
     breakpoints: {
       "(max-width: 640px)": {
         slides: {
-          perView: 1.2,
+          perView: 1.1,
           spacing: 21,
         },
       },

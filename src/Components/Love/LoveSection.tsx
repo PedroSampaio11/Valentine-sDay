@@ -61,6 +61,7 @@ const Paper = styled.div`
     margin-bottom: 2rem;
     color: #e91e63;
     text-align: center;
+    font-weight: 700;
   }
 
   p {
@@ -68,6 +69,8 @@ const Paper = styled.div`
     text-align: justify;
     letter-spacing: -0.4px;
     font-style: italic;
+    font-size: 1.88rem;
+    font-weight: 400;
   }
 
   @media (max-width: 768px) {
@@ -75,19 +78,22 @@ const Paper = styled.div`
     font-size: 1.4rem;
 
     h2 {
-      font-size: 2.2rem;
+      font-size: 2.44rem;
+    }
+    p{
+      font-size: 1.66rem;
     }
   }
 `;
 
 const Signature = styled.p`
   margin-top: 3rem;
-  font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive !important;
   font-size: 2.2rem;
   color: #e91e63;
   text-align: right;
 
   @media (max-width: 768px) {
-    font-size: 1.8rem;
+    font-size: 1.77rem !important;
   }
 `;

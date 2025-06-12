@@ -17,7 +17,6 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff0f5;
   @media (max-width: 768px) {
     padding: 4rem 1rem;
   }
@@ -42,7 +41,7 @@ const Infos = styled.div`
     }
 
     @media (max-width: 480px) {
-      font-size: 3.2rem;
+      font-size: 3.1rem;
       width: 100%;
     }
   }

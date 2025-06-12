@@ -30,18 +30,19 @@ const Infos = styled.div`
   gap: 1.5rem;
   text-align: center;
 
+
   h1 {
     font-size: 6rem;
     font-weight: 700;
     color: #cb869f;
 
-    @media (max-width: 768px) {
-      font-size: 3.4rem;
+    @media (min-width: 300px) and (max-width: 415px) {
+      font-size: 2.88rem;
       width: 100%;
     }
-
-    @media (max-width: 480px) {
-      font-size: 3.1rem;
+  
+    @media (min-width: 416px) and (max-width: 700px) {
+      font-size: 3.3rem;
       width: 100%;
     }
   }
@@ -55,7 +56,7 @@ const Infos = styled.div`
     }
 
     @media (max-width: 480px) {
-      font-size: 1.6rem;
+      font-size: 1.66rem;
     }
   }
 `;

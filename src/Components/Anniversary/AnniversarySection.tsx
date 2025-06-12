@@ -37,11 +37,11 @@ const AnniversaryContainer = styled.div`
 const MainText = styled.p`
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  line-height: 1.4;
+  line-height: 1.2;
   word-break: break-word;
 
   @media (max-width: 768px) {
-    font-size: 1.4rem;
+    font-size: 1.55rem;
     padding: 0 0.5rem;
   }
 `;
@@ -73,7 +73,7 @@ const OptionalText = styled.p`
   margin-top: 1rem;
 
   @media (max-width: 768px) {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
 `;
 
@@ -86,7 +86,7 @@ const HeartIcon = styled.span`
   vertical-align: middle;
 
   @media (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-left: 8px;
   }
 `;

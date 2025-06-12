@@ -45,7 +45,7 @@ const polaroids = [
 ];
 
 export const PolaroidSection: React.FC = () => {
-  const animation = { duration: 50000, easing: (t: number) => t };
+  const animation = { duration: 48000, easing: (t: number) => t };
   const numberOfCards = polaroids.length;
 
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
@@ -131,7 +131,7 @@ const Polaroid = styled.div`
   width: 255px;
   height: 333px;
   padding: 2rem 1.4rem;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.044);
   border-radius: 4px;
   display: flex;
   flex-direction: column;
